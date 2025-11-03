@@ -1,0 +1,20 @@
+{
+  "name": "backup-script",
+  "version": "1.0.0",
+  "description": "Sistema avançado de backup com Google Drive",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "setup": "node main.js --setup"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "discord.js": "^14.24.2",
+    "fs-extra": "^11.1.1",
+    "googleapis": "^126.0.1",
+    "mysql2": "^3.6.5",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^2.7.0",
+    "tar": "^6.1.15"
+  }
+}
